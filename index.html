@@ -40,6 +40,11 @@ form * {
 }
 </style>
 <script language="Javascript" >
+	.hidden
+	{
+   		display:none;
+   		visibility:hidden;
+	}
 function download() {
   var filename = "wex_dust_config.txt";
   var struct =  "{" + "\n" + "  \"area_blocklist\": [";
@@ -285,95 +290,95 @@ function download() {
     Pre-Midir <input type="checkbox" style="display:inline" id="check136" /> <br>
     <br>
     
-  <input id="download_btn" type="submit" class="btn" style="width: 125px" onClick="download();" />
+  <input id="download_btn" type="submit" class="btn" style="width: 125px" onClick="download();" value="Download config"/>
 
 <input type="text" id="a01" readonly/>
-.
-<input type="text" id="a11" readonly/>
-<input type="text" id="a12" readonly/>
-<input type="text" id="a13" readonly/>
-<input type="text" id="a14" readonly/>
-<input type="text" id="a15" readonly/>
-<input type="text" id="a16" readonly/>
-<input type="text" id="a17" readonly/>
-.
-<input type="text" id="a21" readonly/>
-<input type="text" id="a22" readonly/>
-<input type="text" id="a23" readonly/>
-<input type="text" id="a24" readonly/>
-.
-<input type="text" id="a31" readonly/>
-<input type="text" id="a32" readonly/>
-<input type="text" id="a33" readonly/>
-<input type="text" id="a34" readonly/>
-<input type="text" id="a35" readonly/>
-<input type="text" id="a36" readonly/>
-<input type="text" id="a37" readonly/>
-.
-<input type="text" id="a41" readonly/>
-<input type="text" id="a42" readonly/>
-<input type="text" id="a43" readonly/>
-<input type="text" id="a44" readonly/>
-<input type="text" id="a45" readonly/>
-<input type="text" id="a46" readonly/>
-.
-<input type="text" id="a51" readonly/>
-<input type="text" id="a52" readonly/>
-<input type="text" id="a53" readonly/>
-<input type="text" id="a54" readonly/>
-<input type="text" id="a55" readonly/>
-<input type="text" id="a56" readonly/>
-<input type="text" id="a57" readonly/>
-.
-<input type="text" id="a61" readonly/>
-<input type="text" id="a62" readonly/>
-<input type="text" id="a63" readonly/>
-<input type="text" id="a64" readonly/>
-<input type="text" id="a65" readonly/>
-<input type="text" id="a66" readonly/>
-<input type="text" id="a67" readonly/>
-<input type="text" id="a68" readonly/>
-.
-<input type="text" id="a71" readonly/>
-<input type="text" id="a72" readonly/>
-<input type="text" id="a73" readonly/>
-<input type="text" id="a74" readonly/>
-<input type="text" id="a75" readonly/>
-.
-<input type="text" id="a81" readonly/>
-<input type="text" id="a82" readonly/>
-<input type="text" id="a83" readonly/>
-<input type="text" id="a84" readonly/>
-<input type="text" id="a85" readonly/>
-<input type="text" id="a86" readonly/>
-<input type="text" id="a87" readonly/>
-<input type="text" id="a88" readonly/>
-.
-<input type="text" id="a91" readonly/>
-<input type="text" id="a92" readonly/>
-<input type="text" id="a93" readonly/>
-<input type="text" id="a94" readonly/>
-.
-<input type="text" id="a101" readonly/>
-.
-<input type="text" id="a111" readonly/>
-<input type="text" id="a112" readonly/>
-<input type="text" id="a113" readonly/>
-<input type="text" id="a114" readonly/>
-<input type="text" id="a115" readonly/>
-<input type="text" id="a116" readonly/>
-<input type="text" id="a117" readonly/>
-.
-<input type="text" id="a121" readonly/>
-<input type="text" id="a122" readonly/>
-<input type="text" id="a123" readonly/>
-.
-<input type="text" id="a131" readonly/>
-<input type="text" id="a132" readonly/>
-<input type="text" id="a133" readonly/>
-<input type="text" id="a134" readonly/>
-<input type="text" id="a135" readonly/>
-<input type="text" id="a136" readonly/>
+
+<input type="text" id="a11" class="hidden" readonly/>
+<input type="text" id="a12" class="hidden" readonly/>
+<input type="text" id="a13" class="hidden" readonly/>
+<input type="text" id="a14" class="hidden" readonly/>
+<input type="text" id="a15" class="hidden" readonly/>
+<input type="text" id="a16" class="hidden" readonly/>
+<input type="text" id="a17" class="hidden" readonly/>
+
+<input type="text" id="a21" class="hidden" readonly/>
+<input type="text" id="a22" class="hidden" readonly/>
+<input type="text" id="a23" class="hidden" readonly/>
+<input type="text" id="a24" class="hidden" readonly/>
+
+<input type="text" id="a31" class="hidden" readonly/>
+<input type="text" id="a32" class="hidden" readonly/>
+<input type="text" id="a33" class="hidden" readonly/>
+<input type="text" id="a34" class="hidden" readonly/>
+<input type="text" id="a35" class="hidden" readonly/>
+<input type="text" id="a36" class="hidden" readonly/>
+<input type="text" id="a37" class="hidden" readonly/>
+
+<input type="text" id="a41" class="hidden" readonly/>
+<input type="text" id="a42" class="hidden" readonly/>
+<input type="text" id="a43" class="hidden" readonly/>
+<input type="text" id="a44" class="hidden" readonly/>
+<input type="text" id="a45" class="hidden" readonly/>
+<input type="text" id="a46" class="hidden" readonly/>
+
+<input type="text" id="a51" class="hidden" readonly/>
+<input type="text" id="a52" class="hidden" readonly/>
+<input type="text" id="a53" class="hidden" readonly/>
+<input type="text" id="a54" class="hidden" readonly/>
+<input type="text" id="a55" class="hidden" readonly/>
+<input type="text" id="a56" class="hidden" readonly/>
+<input type="text" id="a57" class="hidden" readonly/>
+
+<input type="text" id="a61" class="hidden" readonly/>
+<input type="text" id="a62" class="hidden" readonly/>
+<input type="text" id="a63" class="hidden" readonly/>
+<input type="text" id="a64" class="hidden" readonly/>
+<input type="text" id="a65" class="hidden" readonly/>
+<input type="text" id="a66" class="hidden" readonly/>
+<input type="text" id="a67" class="hidden" readonly/>
+<input type="text" id="a68" class="hidden" readonly/>
+
+<input type="text" id="a71" class="hidden" readonly/>
+<input type="text" id="a72" class="hidden" readonly/>
+<input type="text" id="a73" class="hidden" readonly/>
+<input type="text" id="a74" class="hidden" readonly/>
+<input type="text" id="a75" class="hidden" readonly/>
+
+<input type="text" id="a81" class="hidden" readonly/>
+<input type="text" id="a82" class="hidden" readonly/>
+<input type="text" id="a83" class="hidden" readonly/>
+<input type="text" id="a84" class="hidden" readonly/>
+<input type="text" id="a85" class="hidden" readonly/>
+<input type="text" id="a86" class="hidden" readonly/>
+<input type="text" id="a87" class="hidden" readonly/>
+<input type="text" id="a88" class="hidden" readonly/>
+
+<input type="text" id="a91" class="hidden" readonly/>
+<input type="text" id="a92" class="hidden" readonly/>
+<input type="text" id="a93" class="hidden" readonly/>
+<input type="text" id="a94" class="hidden" readonly/>
+
+<input type="text" id="a101" class="hidden" readonly/>
+
+<input type="text" id="a111" class="hidden" readonly/>
+<input type="text" id="a112" class="hidden" readonly/>
+<input type="text" id="a113" class="hidden" readonly/>
+<input type="text" id="a114" class="hidden" readonly/>
+<input type="text" id="a115" class="hidden" readonly/>
+<input type="text" id="a116" class="hidden" readonly/>
+<input type="text" id="a117" class="hidden" readonly/>
+
+<input type="text" id="a121" class="hidden" readonly/>
+<input type="text" id="a122" class="hidden" readonly/>
+<input type="text" id="a123" class="hidden" readonly/>
+
+<input type="text" id="a131" class="hidden" readonly/>
+<input type="text" id="a132" class="hidden" readonly/>
+<input type="text" id="a133" class="hidden" readonly/>
+<input type="text" id="a134" class="hidden" readonly/>
+<input type="text" id="a135" class="hidden" readonly/>
+<input type="text" id="a136" class="hidden" readonly/>
 </form>
 </body>
 </html>
